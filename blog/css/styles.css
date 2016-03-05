@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+/*---------------nav----------------*/
+#bar {
+  background-color: #ffffcc;
+ /* position: fixed;
+  top: 0;*/
+}
+#bar {
+  margin: 0 auto; 
+}
+#bar ul {
+  margin: 0 auto;
+  width: 660px;
+  height: 42px;
+  text-align: center;
+}
+#bar ul li {
+  list-style-type: none;
+  line-height: 42px;
+}
+#bar > ul a {
+  float: left;
+  font-size: 24px;
+  color: #666666;
+  text-decoration: none;/*There is no underline.*/
+}
+#bar > ul a:link {
+  padding: 0 30px 0 30px;
+}
+#bar > ul a:hover {
+  background: #ff6666;
+  color: #fff;
+}
+/*---------------intro---------------*/
+#intro {
+  height: 438px;
+  background: url(../img/intro_bg.png);
+}  
+#intro h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 100px;
+  color: #fff;
+}
+span.name {
+  color: #336699;
+}
+/*-------------blogs----------------*/
+#blogs {
+  /*height: 800px;*/
+  background: #ffffcc;
+  overflow: hidden;
+}
+#article {
+  margin: 0 auto;
+  width: 800px;
+}
+h2 {
+  margin: 0;
+  color: #666666;
+  font-size: 45px;
+  text-align: center;
+}
+.eassy {
+  width: 300px;
+  margin-left: 100px;
+  float: left;
+}
+.blog-img {
+  width: 300px;
+  height: 200px;
+}
+.youth {
+  background: url(../img/youth.jpg); 
+  background-size: 100% 100%;
+}
+.nobility {
+  background: url(../img/nobility.jpg);
+  background-size: 100% 100%;
+}
+/*------------album----------------*/
+#album {
+  margin: 
+}
+#photos {
+  margin:0 auto;
+  width: 400px;
+  height: 300px;
+  border: 10px #333333 solid;
+  overflow: hidden;
+}
+.photo {
+  width: 400px;
+  height: 300px;
+}

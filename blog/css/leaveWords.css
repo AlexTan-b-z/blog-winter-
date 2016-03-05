@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#99ccff), to(#fff)) no-repeat;/*谷歌*/
+  background-size: 100% 100%;
+  font-family: "Microsoft YaHei";
+}
+/*--------------------nav-----------------------*/
+#top-bar {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 904px;
+  height: 70px;
+}
+#top-bar a {
+  text-decoration: none;/*There is no underline.*/
+}
+.iconfont {
+  font-size: 68px;
+  float: right;
+  line-height: 70px;
+}
+#home {
+  color: rgb(252,114,3);
+}
+#write {
+  color: #99cc00;
+}
+#album {
+  color: #ff6666;
+}
+/*-------------tofriends-----------------------*/
+#tofriends {
+  margin: 0 auto;
+  width: 910px;
+}
+h1 {
+  text-align: center;
+}
+/*-------------leaverwords--------------------*/
+#leavewords {
+  margin: 0 auto;
+  width: 910px;
+  height: 120px;
+}
+.btn {
+  width: 92px;
+  height: 36px;
+  margin-top: 10px;
+  display: block;
+  float: right;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #ff6666;
+}
+#comment {
+  width: 900px;
+  height: 50px;
+  display: block;
+  border-radius: 5px;
+  overflow-y: visible;
+  font-size: 20px;
+}
